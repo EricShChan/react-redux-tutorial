@@ -41,7 +41,7 @@ describe('application logic', () => {
             '28 Days Later': 2
           })
         }),
-        entry: List()
+        entries: List()
       });
       const nextState = next(state);
       expect(nextState).to.equal(
